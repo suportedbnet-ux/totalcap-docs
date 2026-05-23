@@ -16,7 +16,7 @@ O menu principal é composto pelos seguintes agrupamentos e itens:
 - [**Fatura de Serviço**](documentacao_fatura_servicos.md)
 - [**Fatura NF Retorno**](documentacao_fatura_retorno.md)
 - [**Fatura NF Entrada**](documentacao_fatura_entrada.md)
-- [**Tabela de Preço**](documentacao_tabela-preco.md)
+- [**Tabela de Preço**](documentacao_tabela_preco.md)
 - [**Contratos**](documentacao_contratos.md)
 
 ## 🧮 Orçamento
