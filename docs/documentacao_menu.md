@@ -20,25 +20,25 @@ O menu principal é composto pelos seguintes agrupamentos e itens:
 - [**Contratos**](documentacao_contratos.md)
 
 ## 🧮 Orçamento
-- **Orçamento** (`/orcamento`)
+- [**Orçamento**](documentacao_orcamento.md)
 
 ## 🏭 Chão de Fábrica
-- **Localização** (`/localizacao`)
-- **Apontamento** (`/apontamento`)
-- **Registro de Falhas** (`/falhas`)
-- **Consumo de Mat.Prima** (`/consumo-materia`)
-- **Laudos** (`/laudos`)
-- **Gerador Código de Barra** (`/gerador-etiquetas`)
-- **PCP - Programação** (`/pcp`)
+- [**Localização**](documentacao_localizacao.md)
+- [**Apontamento**](documentacao_apontamento.md)
+- [**Registro de Falhas**](documentacao_registro_falhas.md)
+- [**Consumo de Mat.Prima**](documentacao_consumo_mprima.md)
+- [**Laudos**](documentacao_laudo.md)
+- [**Gerador Código de Barra**](documentacao_gerador_codigobarra.md)
+- [**PCP - Programação**](documentacao_pcp.md)
 
 ## 🧾 Despesas
-- **Despesas C/ Vendas** (`/lacto-despesas`)
+- [**Despesas C/ Vendas**](documentacao_despesas.md)
 
 ## 📈 Relatórios
 Agrupados por área de negócio:
 
 ### Faturamento
-- **Rel. Vendas** (`/rel-vendas-servico`)
+- [**Rel. Vendas**](documentacao_relvendas.md)
 - **Rel. Comissões** (`/rel-comissoes`)
 - **Rel. Metas** (`/rel-metas`)
 
