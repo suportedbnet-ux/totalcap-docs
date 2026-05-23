@@ -1,0 +1,572 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Documentação: Regras de Negócio - Informe de Serviços e Cadastro de Serviços - Minha documentação</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentacao-regras-de-negocio-informe-de-servicos-e-cadastro-de-servicos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Minha documentação" class="md-header__button md-logo" aria-label="Minha documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Minha documentação
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documentação: Regras de Negócio - Informe de Serviços e Cadastro de Serviços
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../documentacao_menu/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introdução
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Minha documentação" class="md-nav__button md-logo" aria-label="Minha documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Minha documentação
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentacao_menu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-tela-de-informe-de-servicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Tela de Informe de Serviços
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Tela de Informe de Serviços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buscador-e-acoes-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buscador e Ações Gerais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-de-edicao-do-pneu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações de Edição do Pneu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-na-grade-de-servicos-adicionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações na Grade de Serviços Adicionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tela-de-cadastro-e-edicao-de-novos-servicos-catalogo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Tela de Cadastro e Edição de Novos Serviços (Catálogo)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tela de Cadastro e Edição de Novos Serviços (Catálogo)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acoes-na-listagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações na Listagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-no-modal-de-edicaocriacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações no Modal de Edição/Criação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="documentacao-regras-de-negocio-informe-de-servicos-e-cadastro-de-servicos">Documentação: Regras de Negócio - Informe de Serviços e Cadastro de Serviços</h1>
+<p>Este documento detalha em linguagem natural as regras de negócio e funcionalidades atreladas aos botões das telas de <strong>Informe de Serviços</strong> (apontamento por pneu) e de <strong>Serviços</strong> (Catálogo/Edição de novos serviços) no sistema Totalcap.</p>
+<hr />
+<h2 id="1-tela-de-informe-de-servicos">1. Tela de Informe de Serviços</h2>
+<p>Esta tela é utilizada pelo setor de produção ou faturamento para bipar (ler o código de barras) um pneu individual e realizar ajustes finos, inserir serviços extras (manchões, consertos) ou laudar uma recusa.</p>
+<h3 id="buscador-e-acoes-gerais">Buscador e Ações Gerais</h3>
+<ul>
+<li><strong>Identificar Pneu (Lupa)</strong><ul>
+<li><strong>Ação:</strong> O usuário digita o ID numérico ou escaneia o código de barras gerado pela ficha de produção. O sistema busca esse pneu específico e bloqueia buscas inválidas.</li>
+<li><strong>Regra de Negócio de Bloqueio:</strong> Ao encontrar o pneu, o sistema verifica a flag de Faturamento (<code>statusfat</code>). Se o pneu já constar como "Faturado", o sistema emite um alerta fixo em tela e <strong>desabilita</strong> quase todos os botões de ação e edição (não é possível alterar laudos ou serviços de pneus já cobrados do cliente).</li>
+</ul>
+</li>
+<li><strong>Nova Pesquisa (Botão Cinza)</strong><ul>
+<li><strong>Ação:</strong> Limpa os painéis e o pneu selecionado no momento, voltando a tela ao estado de "pronta para bipe" do próximo pneu.</li>
+</ul>
+</li>
+</ul>
+<h3 id="acoes-de-edicao-do-pneu">Ações de Edição do Pneu</h3>
+<ul>
+<li><strong>Imprime Carta Avaliação (Botão de Impressora no Examinador)</strong><ul>
+<li><strong>Regra de Negócio:</strong> Este botão só se torna clicável se um "Motivo Recusa" for selecionado. </li>
+<li><strong>Ação:</strong> Gera uma impressão especial (Laudo Técnico de Recusa / Carta de Avaliação de Carcaça) formatada para o cliente, contendo todos os dados da transportadora/cliente, as dimensões do pneu e o motivo pelo qual ele não pôde ser recapado.</li>
+</ul>
+</li>
+<li><strong>Salvar Alterações do Pneu (Botão Azul)</strong><ul>
+<li><strong>Ação:</strong> Consolida alterações nos dados básicos do pneu (mudança de medida, valor da reforma, examinador, etc).</li>
+<li><strong>Regra de Negócio Crítica (Recusa):</strong> Se o operador alterar o campo "Motivo Recusa" de <em>Vazio</em> para um motivo <em>Válido</em>, o sistema realiza uma automação pesada ao salvar: <ol>
+<li>Altera forçadamente o tipo de recapagem para "Recusado" (Id 1).</li>
+<li><strong>Deleta</strong> automaticamente todos os serviços de recapagem ou conserto que já estavam vinculados a este pneu.</li>
+<li>Cria um único serviço padronizado de "Recusa" para este pneu com o valor do pneu atual (muitas vezes zerado ou taxado).
+Se a recusa for retirada, ele também limpa os serviços de recusa.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="acoes-na-grade-de-servicos-adicionais">Ações na Grade de Serviços Adicionais</h3>
+<ul>
+<li><strong>Adicionar Serviço (+ Adicionar Serviço)</strong><ul>
+<li><strong>Ação:</strong> Serve para lançar serviços extras executados no pneu (como remendos, vulcanização extra, etc).</li>
+<li><strong>Regra de Negócio Crítica (Serviço Automático):</strong> Se o usuário clicar neste botão e o pneu <strong>ainda não possuir nenhum serviço lançado</strong> (Quantidade de Serviços = 0), o sistema não abre a janela de escolha. Em vez disso, ele assume que o operador quer lançar o serviço padrão daquele pneu (baseado na medida e desenho) e o <strong>lança automaticamente no banco</strong>, recarregando a página e poupando tempo. Se já houver 1 ou mais serviços, o clique abre normalmente a janela (modal) para escolher outro serviço da lista.</li>
+</ul>
+</li>
+<li><strong>Editar / Excluir Serviço Adicional (Ícones Lápis e Lixeira)</strong><ul>
+<li><strong>Ação:</strong> Permite alterar o valor unitário ou quantidade de um serviço extra, ou excluí-lo.</li>
+<li><strong>Regras:</strong> Como mencionado, totalmente inativos se o pneu constar como "Faturado".</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="2-tela-de-cadastro-e-edicao-de-novos-servicos-catalogo">2. Tela de Cadastro e Edição de Novos Serviços (Catálogo)</h2>
+<p>Esta tela é o "Menu de Restaurante" da recapadora. Nela são cadastrados os serviços base que poderão ser utilizados na OS e no Informe.</p>
+<h3 id="acoes-na-listagem">Ações na Listagem</h3>
+<ul>
+<li><strong>Imprimir (Botão Secundário no Cabeçalho)</strong><ul>
+<li><strong>Ação:</strong> Gera a impressão da lista mestra de todos os serviços cadastrados na base, útil como catálogo de preços físicos para vendedores.</li>
+</ul>
+</li>
+<li><strong>Novo Serviço (+ Novo Serviço)</strong><ul>
+<li><strong>Ação:</strong> Abre o formulário para criação de um novo serviço, zerando os dados.</li>
+</ul>
+</li>
+<li><strong>Filtros (Selects de Recapagem, Medida e Desenho)</strong><ul>
+<li><strong>Ação:</strong> Permitem cruzar filtros para encontrar os serviços rapidamente (Ex: "Mostre todos os serviços da Medida 275/80 para Desenho Liso").</li>
+</ul>
+</li>
+<li><strong>Status Ativo/Inativo (Grade)</strong><ul>
+<li><strong>Regra Visual:</strong> Exibe de forma rápida se um serviço ainda pode ser vendido ou se foi descontinuado.</li>
+</ul>
+</li>
+</ul>
+<h3 id="acoes-no-modal-de-edicaocriacao">Ações no Modal de Edição/Criação</h3>
+<ul>
+<li><strong>Automação de Descrição e Código (Sem Botão, Lógica Reativa)</strong><ul>
+<li><strong>Regra de Negócio (Nomenclatura Padrão):</strong> O sistema não espera que o usuário digite a descrição do serviço manualmente em todos os casos. Ao selecionar o <em>Tipo de Recapagem</em>, a <em>Medida</em> e o <em>Desenho</em>, o sistema <strong>escreve sozinho</strong> a descrição do serviço no formato <code>[Medida] [Desenho] [Código do Tipo Recapagem]</code>.</li>
+<li><strong>Regra de Negócio (Código de Serviço):</strong> Da mesma forma, o Código interno referencial do serviço é autogerado concatenando os IDs: <code>ID_Medida.ID_Desenho.ID_Recap</code>. Isso garante que serviços não fiquem duplicados e sigam o padrão exato exigido na validação automática da Ordem de Serviço.</li>
+</ul>
+</li>
+<li><strong>Salvar (Botão Azul)</strong><ul>
+<li><strong>Ação:</strong> Grava o serviço no banco de dados. Exige, impreterivelmente, que o serviço possua uma descrição (que na maioria das vezes é a gerada pela automação acima).</li>
+</ul>
+</li>
+<li><strong>Checkbox "Serviço ativo para novas ordens"</strong><ul>
+<li><strong>Regra:</strong> Se desmarcado, o serviço será inativado e deixará de aparecer na lista de sugestões automáticas nas telas de Ordem de Serviço, impedindo que os vendedores lancem serviços antigos ou com preços defasados.</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
