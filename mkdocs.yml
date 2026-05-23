@@ -1,0 +1,13 @@
+site_name: Minha documentação
+nav:
+  - Início: index.md
+  - Introdução: documentacao_menu.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
