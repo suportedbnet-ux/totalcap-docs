@@ -8,9 +8,8 @@ O menu principal é composto pelos seguintes agrupamentos e itens:
 - **Dashboard Principal** (`/dashboard`)
 
 ## 🚛 Operacional
-- [**Coleta de Pneus**](documentacao_coleta_pneus.md)
-- [**Ordem de Serviço**](documentacao_ordem_servico.md)
-
+- [**Coleta de Pneus**](documentacao_coleta_pneus.md) [Video](https://youtu.be/bAk5sJI-cZA)
+- [**Ordem de Serviço**](documentacao_ordem_servico.md) [Video](https://youtu.be/5Ixb-lU1vHg)
 ## 💳 Faturamento
 - [**Informe de Serviços**](documentacao_informe_servicos.md)
 - [**Fatura de Serviço**](documentacao_fatura_servicos.md)
