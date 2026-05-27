@@ -1,6 +1,6 @@
 # Documentação: Regras de Negócio - Coleta de Pneus
 
-Este documento descreve em linguagem natural as funcionalidades e as regras de negócio envolvidas nos botões das telas de **Coleta de Pneus**, **Leitura OCR** e **Edição de Coleta de Pneus** do sistema Totalcap.
+Este documento descreve as funcionalidades e as regras de negócio envolvidas nos botões das telas de **Coleta de Pneus**, **Leitura OCR** e **Edição de Coleta de Pneus** do sistema TotalCAP.  [->Assistir Video](https://youtu.be/bAk5sJI-cZA)
 
 ---
 

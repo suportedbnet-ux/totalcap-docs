@@ -1,6 +1,6 @@
 # Documentação: Regras de Negócio - Ordem de Serviço (OS)
 
-Este documento descreve em linguagem natural as funcionalidades e as regras de negócio envolvidas nos botões das telas de **Ordens de Serviço** e seus modais de **Edição/Criação** do sistema Totalcap.
+Este documento descreve as funcionalidades e as regras de negócio envolvidas nos botões das telas de **Ordens de Serviço** e seus modais de **Edição/Criação** do sistema TotalCAP. [->Assistir Video](https://youtu.be/5Ixb-lU1vHg)
 
 ---
 
