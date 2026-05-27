@@ -2,8 +2,6 @@
 
 Documentação oficial do projeto **X**.
 
-[![Começar](https://img.shields.io/badge/Guia%20Rápido-Start-blue)](guia.md)
-
 ---
 
 ## ✨ Recursos
@@ -11,11 +9,8 @@ Documentação oficial do projeto **X**.
 
 - ⚡ Exemplos práticos
 - 🔍 Busca integrada
-- 🌙 Suporte a modo escuro
 
 ---
 
 ## 📌 Navegação rápida
-- [Instalação](instalacao.md)
-- [Primeiros passos](primeiros-passos.md)
-- [Referência](referencia.md)
+- [Primeiros passos](primeiros_passos.md)
