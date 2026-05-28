@@ -1,100 +1,100 @@
-+ACM- Documenta+AMMApwDDAKM-o do Menu do Sistema TotalCAP
+# Documentação do Menu do Sistema TotalCAP
 
-Esta documenta+AMMApwDDAKM-o detalha a estrutura de navega+AMMApwDDAKM-o do menu lateral do sistema, com todos os seus m+AMMAsw-dulos, subm+AMMAsw-dulos e respectivas rotas de acesso.
+Esta documentação detalha a estrutura de navegação do menu lateral do sistema, com todos os seus módulos, submódulos e respectivas rotas de acesso.
 
-O menu principal +AMMAqQ- composto pelos seguintes agrupamentos e itens:
+O menu principal é composto pelos seguintes agrupamentos e itens:
 
-+ACMAIw- +APAAnwCTAIo- Dashboard
-- +ACoAKg-Dashboard Principal+ACoAKg- (dashboard+AGA-)
+## 📊 Dashboard
+- [**Dashboard Principal**](dashboard.md)
 
-+ACMAIw- +APAAnwCaAJs- Operacional
-- +AFsAKgAq-Coleta de Pneus+ACoAKgBd-(documentacao+AF8-coleta+AF8-pneus.md) 
-- +AFsAKgAq-Ordem de Servi+AMMApw-o+ACoAKgBd-(documentacao+AF8-ordem+AF8-servico.md)
-+ACMAIw- +APAAnwCSALM- Faturamento
-- +AFsAKgAq-Informe de Servi+AMMApw-os+ACoAKgBd-(documentacao+AF8-informe+AF8-servicos.md)
-- +AFsAKgAq-Fatura de Servi+AMMApw-o+ACoAKgBd-(documentacao+AF8-fatura+AF8-servicos.md)
-- +AFsAKgAq-Fatura NF Retorno+ACoAKgBd-(documentacao+AF8-fatura+AF8-retorno.md)
-- +AFsAKgAq-Fatura NF Entrada+ACoAKgBd-(documentacao+AF8-fatura+AF8-entrada.md)
-- +AFsAKgAq-Tabela de Pre+AMMApw-o+ACoAKgBd-(documentacao+AF8-tabela+AF8-preco.md)
-- +AFsAKgAq-Contratos+ACoAKgBd-(documentacao+AF8-contratos.md)
+## 🚛 Operacional
+- [**Coleta de Pneus**](documentacao_coleta_pneus.md) 
+- [**Ordem de Serviço**](documentacao_ordem_servico.md)
+## 💳 Faturamento
+- [**Informe de Serviços**](documentacao_informe_servicos.md)
+- [**Fatura de Serviço**](documentacao_fatura_servicos.md)
+- [**Fatura NF Retorno**](documentacao_fatura_retorno.md)
+- [**Fatura NF Entrada**](documentacao_fatura_entrada.md)
+- [**Tabela de Preço**](documentacao_tabela_preco.md)
+- [**Contratos**](documentacao_contratos.md)
 
-+ACMAIw- +APAAnwCnAK4- Or+AMMApw-amento
-- +AFsAKgAq-Or+AMMApw-amento+ACoAKgBd-(documentacao+AF8-orcamento.md)
+## 🧮 Orçamento
+- [**Orçamento**](documentacao_orcamento.md)
 
-+ACMAIw- +APAAnwCPAK0- Ch+AMMAow-o de F+AMMAoQ-brica
-- +AFsAKgAq-Localiza+AMMApwDDAKM-o+ACoAKgBd-(documentacao+AF8-localizacao.md)
-- +AFsAKgAq-Apontamento+ACoAKgBd-(documentacao+AF8-apontamento.md)
-- +AFsAKgAq-Registro de Falhas+ACoAKgBd-(documentacao+AF8-registro+AF8-falhas.md)
-- +AFsAKgAq-Consumo de Mat.Prima+ACoAKgBd-(documentacao+AF8-consumo+AF8-mprima.md)
-- +AFsAKgAq-Laudos+ACoAKgBd-(documentacao+AF8-laudo.md)
-- +AFsAKgAq-Gerador C+AMMAsw-digo de Barra+ACoAKgBd-(documentacao+AF8-gerador+AF8-codigobarra.md)
-- +AFsAKgAq-PCP - Programa+AMMApwDDAKM-o+ACoAKgBd-(documentacao+AF8-pcp.md)
+## 🏭 Chão de Fábrica
+- [**Localização**](documentacao_localizacao.md)
+- [**Apontamento**](documentacao_apontamento.md)
+- [**Registro de Falhas**](documentacao_registro_falhas.md)
+- [**Consumo de Mat.Prima**](documentacao_consumo_mprima.md)
+- [**Laudos**](documentacao_laudo.md)
+- [**Gerador Código de Barra**](documentacao_gerador_codigobarra.md)
+- [**PCP - Programação**](documentacao_pcp.md)
 
-+ACMAIw- +APAAnwCnAL4- Despesas
-- +AFsAKgAq-Despesas C/ Vendas+ACoAKgBd-(documentacao+AF8-despesas.md)
+## 🧾 Despesas
+- [**Despesas C/ Vendas**](documentacao_despesas.md)
 
-+ACMAIw- +APAAnwCTAIg- Relat+AMMAsw-rios
-Agrupados por +AMMAoQ-rea de neg+AMMAsw-cio:
+## 📈 Relatórios
+Agrupados por área de negócio:
 
-+ACMAIwAj- Faturamento
-- +AFsAKgAq-Rel. Vendas+ACoAKgBd-(documentacao+AF8-relvendas.md)
-- +AFsAKgAq-Rel. Comiss+AMMAtQ-es+ACoAKgBd-(relcomissoes.md.md)
-- +AFsAKgAq-Rel. Metas+ACoAKgBd- (relmetas.md)
+### Faturamento
+- [**Rel. Vendas**](documentacao_relvendas.md)
+- [**Rel. Comissões**](relcomissoes.md)
+- [**Rel. Metas**](relmetas.md)
 
-+ACMAIwAj- Produ+AMMApwDDAKM-o
-- +AFsAKgAq-Rel. Produtividade+ACoAKgBd-(relprodutividade.md)
-- +AFsAKgAq-Rel. Falhas+ACoAKgBd-(relfalhas.md)
-- +AFsAKgAq-Rel. Consumo Mat.Prima+ACoAKgBd-(relconsumomateria.md)
-- +AFsAKgAq-Rel. Laudos+ACoAKgBd-(rellaudos.md)
-- +AFsAKgAq-Rel. Ordens de Servi+AMMApw-o+ACoAKgBd-(relordemservico.md)
+### Produção
+- [**Rel. Produtividade**](relprodutividade.md)
+- [**Rel. Falhas**](relfalhas.md)
+- [**Rel. Consumo Mat.Prima**](relconsumomateria.md)
+- [**Rel. Laudos**](rellaudos.md)
+- [**Rel. Ordens de Serviço**](relordemservico.md)
 
-+ACMAIw- +APAAnwCRAKU- Cadastros
-+AMMAgQ-rea central de registros do sistema, dividida em subcategorias:
+## 👥 Cadastros
+Área central de registros do sistema, dividida em subcategorias:
 
-+ACMAIwAj- Clientes
-- +ACoAKg-Clientes+ACoAKg- (clientes.md)
+### Clientes
+- [**Clientes**](clientes.md)
 
-+ACMAIwAj- Auxiliares
-- +AFsAKgAqAMMAgQ-reas+ACoAKgBd-(areas.md)
-- +AFsAKgAq-Regi+AMMAtQ-es+ACoAKgBd-(regioes.md)
-- +AFsAKgAq-Atividades+ACoAKgBd-(atividades.md)
-- +AFsAKgAq-Vendedores+ACoAKgBd-(vendedores.md)
-- +AFsAWwAqACo-Transportadoras+ACoAKgBd-(transportadoras.md)
-- +AFsAKgAq-Cidades+ACoAKgBd-(cidades.md)
-- +AFsAKgAq-Estados+ACoAKgBd-(estados.md)
-- +AFsAKgAq-Ve+AMMArQ-culos+ACoAKgBd-(veiculos+AGA-)
-- +AFsAKgAq-Bancos+ACoAKgBd-(bancos+AGA-)
-- +AFsAKgAq-Formas de Pagamento+ACoAKgBd-(planospagamento.md)
-- +AFsAKgAq-Tipo de Docto+ACoAKgBd-(tiposdocto.md)
-- +AFsAKgAq-Tipos de Falha+ACoAKg- (falha.md+AGA-)
-- +AFsAKgAq-Regras Comiss+AMMAow-o+ACoAKgBd-(comissoes.md)
-- +AFsAKgAq-Origens Defeito+ACoAKgBd-(origens-defeito+AGA-)
-- +AFsAKgAq-Motivos Recusa+ACoAKgBd-(motivosrecusa.md)
+### Auxiliares
+- [**Áreas**](areas.md)
+- [**Regiões**](regioes.md)
+- [**Atividades**](atividades.md)
+- [**Vendedores**](vendedores.md)
+- [**Transportadoras**](transportadoras.md)
+- [**Cidades**](cidades.md)
+- [**Estados**](estados.md)
+- [**Veículos**](veiculos.md)
+- [**Bancos**](bancos.md)
+- [**Formas de Pagamento**](planospagamento.md)
+- [**Tipo de Docto**](tiposdocto.md)
+- [**Tipos de Falha**](falhas.md)
+- [**Regras Comissão**](comissoes.md)
+- [**Origens Defeito**](origensdefeito.md)
+- [**Motivos Recusa**](motivosrecusa.md)
 
-+ACMAIwAj- Produ+AMMApwDDAKM-o
-- +AFsAKgAq-Medidas+ACoAKgBd-(medidas+AGA-)
-- +AFsAKgAq-Desenhos+ACoAKgBd-(desenhos+AGA-)
-- +AFsAKgAq-Marcas+ACoAKgBd-(marcas+AGA-)
-- +AFsAKgAq-Tipo Recapagem+ACoAKgBd-(tiporecapagem.md)
-- +AFsAKgAq-Produto+ACoAKgBd-(produtos.md)
-- +AFsAKgAq-Grupos Produto+ACoAKg- (grupos-produto.md)
-- +AFsAKgAq-Pisos+ACoAKgBd-(pisos.md)
-- +AFsAKgAq-Servi+AMMApw-os+ACoAKgBd-(servicos.md)
-- +AFsAKgAq-Receita Padr+AMMAow-o+ACoAKgBd-(receitapadrao.md)
-- +AFsAKgAq-Ficha T+AMMAqQ-cnica+ACoAKgBd-(fichatecnica.md)
-- +AFsAKgAq-Setores+ACoAKgBd-(setores+AGA-)
-- +AFsAKgAq-Operadores+ACoAKgBd-(operadores+AGA-)
-- +AFsAKgAq-Falhas+ACoAKgBd-(falhas.md)
+### Produção
+- [**Medidas**](medidas.md)
+- [**Desenhos**](desenhos.md)
+- [**Marcas**](marcas.md)
+- [**Tipo Recapagem**](tiporecapagem.md)
+- [**Produto**](produtos.md)
+- [**Grupos Produto**](gruposproduto.md)
+- [**Pisos**](pisos.md)
+- [**Serviços**](servicos.md)
+- [**Receita Padrão**](receitapadrao.md)
+- [**Ficha Técnica**](fichatecnica.md)
+- [**Setores**](setores.md)
+- [**Operadores**](operadores.md)
+- [**Falhas**](falhas.md)
 
-+ACMAIwAj- Sistema
-- +AFsAKgAq-Empresa+ACoAKgBd-(empresas+AGA-)
-- +AFsAKgAq-Usuarios ERP+ACoAKgBd-(usuarios.md) +ACoA4gCAAJQ- Acesso restrito a administradores+ACo-
-- +AFsAKgAq-Usuarios IA+ACoAKgBd-(usuariosia.md)
+### Sistema
+- [**Empresa**](empresas.md)
+- [**Usuarios ERP**](usuarios.md) *— Acesso restrito a administradores*
+- [**Usuarios IA**](usuariosia.md)
 
-+ACMAIw- +APAAnwCUAIw- Integra+AMMApwDDAKM-o e Configura+AMMApwDDALU-es
-- +AFsAKgAq-Integra+AMMApwDDAKM-o+ACoAKgBd-(integracao.md)
-- +AFsAKgAq-Configura+AMMApwDDAKM-o+ACoAKgBd-(configuracoes.md)
+## 🔌 Integração e Configurações
+- [**Integração**](integracao.md)
+- [**Configuração**](configuracoes.md)
 
 ---
-+AD4- +AFsAIQ-NOTE+AF0-
-+AD4- O menu +AMMAqQ- responsivo (esconde/recolhe no mobile e desktop) e a op+AMMApwDDAKM-o +ACI-Usuarios ERP+ACI- s+AMMAsw- fica vis+AMMArQ-vel se o usu+AMMAoQ-rio logado for administrador.
+> [!NOTE]
+> O menu é responsivo (esconde/recolhe no mobile e desktop) e a opção "Usuarios ERP" só fica visível se o usuário logado for administrador.
