@@ -1,0 +1,42 @@
+# Configuracao de normalizacao de fim de linha
+# Para Windows: checkout CRLF, commit LF
+* text=auto
+
+# Arquivos de codigo fonte - sempre normalizar para LF no Git
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+
+# Documentacao e texto
+*.md text eol=lf
+*.txt text eol=lf
+
+# Arquivos de configuracao do MkDocs
+mkdocs.yml text eol=lf
+
+# Arquivos de lote do Windows - manter CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Arquivos estaticos do site (nao normalizar)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text eol=lf
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Pastas que nao devem ser trackeadas
+site/ linguagens=linguagens
