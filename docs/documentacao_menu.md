@@ -5,7 +5,7 @@ Esta documentação detalha a estrutura de navegação do menu lateral do sistem
 O menu principal é composto pelos seguintes agrupamentos e itens:
 
 ## 📊 Dashboard
-- **Dashboard Principal** (`/dashboard`)
+- **Dashboard Principal** (dashboard`)
 
 ## 🚛 Operacional
 - [**Coleta de Pneus**](documentacao_coleta_pneus.md) 
@@ -38,62 +38,62 @@ Agrupados por área de negócio:
 
 ### Faturamento
 - [**Rel. Vendas**](documentacao_relvendas.md)
-- **Rel. Comissões** (`/rel-comissoes`)
-- **Rel. Metas** (`/rel-metas`)
+- **Rel. Comissões** (relcomissoes.md)
+- **Rel. Metas** (relmetas.md)
 
 ### Produção
-- **Rel. Produtividade** (`/rel-produtividade`)
-- **Rel. Falhas** (`/rel-falhas`)
-- **Rel. Consumo Mat.Prima** (`/rel-consumo-materia`)
-- **Rel. Laudos** (`/rel-laudos`)
-- **Rel. Ordens de Serviço** (`/rel-ordem-servico`)
+- **Rel. Produtividade** (relprodutividade.md)
+- **Rel. Falhas** (relfalhas.md)
+- **Rel. Consumo Mat.Prima** (relconsumomateria.md)
+- **Rel. Laudos** (rellaudos.md)
+- **Rel. Ordens de Serviço** (relordemservico.md)
 
 ## 👥 Cadastros
 Área central de registros do sistema, dividida em subcategorias:
 
 ### Clientes
-- **Clientes** (`/clientes`)
+- **Clientes** (clientes.md)
 
 ### Auxiliares
-- **Áreas** (`/areas`)
-- **Regiões** (`/regioes`)
-- **Atividades** (`/atividades`)
-- **Vendedores** (`/vendedores`)
-- **Transportadoras** (`/transportadoras`)
-- **Cidades** (`/cidades`)
-- **Estados** (`/estados`)
-- **Veículos** (`/veiculos`)
-- **Bancos** (`/bancos`)
-- **Formas de Pagamento** (`/planos-pagamento`)
-- **Tipo de Docto** (`/tipos-docto`)
-- **Tipos de Falha** (`/cad-falhas`)
-- **Regras Comissão** (`/comissoes`)
-- **Origens Defeito** (`/origens-defeito`)
-- **Motivos Recusa** (`/motivos-recusa`)
+- **Áreas** (areas.md)
+- **Regiões** (regioes.md)
+- **Atividades** (atividades.md)
+- **Vendedores** (vendedores.md)
+- **Transportadoras** (transportadoras.md)
+- **Cidades** (cidades.md)
+- **Estados** (estados.md)
+- **Veículos** (veiculos`)
+- **Bancos** (bancos`)
+- **Formas de Pagamento** (planospagamento.md)
+- **Tipo de Docto** (tiposdocto.md)
+- **Tipos de Falha** (falha.md`)
+- **Regras Comissão** (comissoes.md)
+- **Origens Defeito** (origens-defeito`)
+- **Motivos Recusa** (motivosrecusa.md)
 
 ### Produção
-- **Medidas** (`/medidas`)
-- **Desenhos** (`/desenhos`)
-- **Marcas** (`/marcas`)
-- **Tipo Recapagem** (`/tipo-recapagem`)
-- **Produto** (`/produtos`)
-- **Grupos Produto** (`/grupos-produto`)
-- **Pisos** (`/pisos`)
-- **Serviços** (`/servicos`)
-- **Receita Padrão** (`/receita-padrao`)
-- **Ficha Técnica** (`/fichatecnica`)
-- **Setores** (`/setores`)
-- **Operadores** (`/operadores`)
-- **Falhas** (`/cad-falhas`)
+- **Medidas** (medidas`)
+- **Desenhos** (desenhos`)
+- **Marcas** (marcas`)
+- **Tipo Recapagem** (tiporecapagem.md)
+- **Produto** (produtos.md)
+- **Grupos Produto** (grupos-produto.md)
+- **Pisos** (pisos.md)
+- **Serviços** (servicos.md)
+- **Receita Padrão** (receitapadrao.md)
+- **Ficha Técnica** (fichatecnica.md)
+- **Setores** (setores`)
+- **Operadores** (operadores`)
+- **Falhas** (falhas.md)
 
 ### Sistema
-- **Empresa** (`/empresas`)
-- **Usuarios ERP** (`/usuarios`) *— Acesso restrito a administradores*
-- **Usuarios IA** (`/usuarios-ia`)
+- **Empresa** (empresas`)
+- **Usuarios ERP** (usuários.md) *— Acesso restrito a administradores*
+- **Usuarios IA** (usuariosia.md)
 
 ## 🔌 Integração e Configurações
-- **Integração** (`/integracao`)
-- **Configuração** (`/configuracoes`)
+- **Integração** (integracao.md)
+- **Configuração** (configuracoes.md)
 
 ---
 > [!NOTE]

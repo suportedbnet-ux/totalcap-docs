@@ -1,0 +1,1049 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Documentação: Regras de Negócio - Clientes - Sistema TotalCAP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentacao-regras-de-negocio-clientes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Sistema TotalCAP" class="md-header__button md-logo" aria-label="Sistema TotalCAP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sistema TotalCAP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documentação: Regras de Negócio - Clientes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../documentacao_menu/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introdução
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Sistema TotalCAP" class="md-nav__button md-logo" aria-label="Sistema TotalCAP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Sistema TotalCAP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentacao_menu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-tela-principal-gestao-de-clientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Tela Principal (Gestão de Clientes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Tela Principal (Gestão de Clientes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações e Funcionalidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tela-de-edicao-e-criacao-modal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Tela de Edição e Criação (Modal)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tela de Edição e Criação (Modal)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#campos-do-formulario-aba-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos do Formulário - Aba "Geral"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-aba-enderecos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos - Aba "Endereços"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-aba-social" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos - Aba "Social"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-aba-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos - Aba "Financeiro"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-aba-referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos - Aba "Referências"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campos-aba-contatos-complementares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campos - Aba "Contatos / Complementares"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regras-de-negocio-botao-salvar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regras de Negócio - Botão Salvar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regras-de-negocio-botao-imprimir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regras de Negócio - Botão Imprimir
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Regras de Negócio - Botão Imprimir">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imprimir-handleprint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Imprimir (handlePrint)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="documentacao-regras-de-negocio-clientes">Documentação: Regras de Negócio - Clientes</h1>
+<p>Este documento detalha em linguagem natural as regras de negócio atreladas aos botões e ao fluxo da tela de Clientes e seu respectivo modal de criação/edição.</p>
+<h2 id="1-tela-principal-gestao-de-clientes">1. Tela Principal (Gestão de Clientes)</h2>
+<p>O "Cliente" é o registro central de pessoas físicas ou jurídicas com as quais a empresa se relaciona comercialmente. A tela oferece gestão completa com abas segmentadas por tipo de informação.</p>
+<h3 id="acoes-e-funcionalidades">Ações e Funcionalidades</h3>
+<p><strong>Novo Cliente (+ Botão Azul Superior)</strong>
+- <strong>Ação</strong>: Abre o modal de cadastro com múltiplas abas (Geral, Endereços, Social, Financeiro, Referências, Contatos) para registrar um novo cliente no sistema.</p>
+<p><strong>Barra de Busca</strong>
+- <strong>Ação</strong>: Permite localizar clientes por nome, CPF/CNPJ, ou qualquer informação cadastrada. A busca é dinâmica e atualiza a listagem conforme o usuário digita.</p>
+<p><strong>Ações na Grade (Editar e Excluir)</strong>
+- <strong>Editar (Lápis Azul)</strong>: Carrega os dados completos do cliente no modal, preservando todas as abas e sub-registros (endereços, contatos).
+- <strong>Excluir (Lixeira Vermelha)</strong>: Remove o cliente do sistema. O sistema exige confirmação para evitar perda acidental de dados cadastrais.</p>
+<h2 id="2-tela-de-edicao-e-criacao-modal">2. Tela de Edição e Criação (Modal)</h2>
+<p>O modal de cliente é multi-abas. Cada aba agrupa campos de uma categoria específica de informação.</p>
+<h3 id="campos-do-formulario-aba-geral">Campos do Formulário - Aba "Geral"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome (nome)</td>
+<td>text</td>
+<td><strong>Sim</strong></td>
+<td>Nome ou Razão Social</td>
+</tr>
+<tr>
+<td>Razão Social (razaosocial)</td>
+<td>text</td>
+<td>Não</td>
+<td>Razão social (PJ)</td>
+</tr>
+<tr>
+<td>CPF/CNPJ (cpfcnpj)</td>
+<td>text</td>
+<td><strong>Sim</strong></td>
+<td>CPF ou CNPJ com máscara automática</td>
+</tr>
+<tr>
+<td>Pessoa (pessoa)</td>
+<td>select</td>
+<td>Não</td>
+<td>Física (F) ou Jurídica (J)</td>
+</tr>
+<tr>
+<td>RG (rg)</td>
+<td>text</td>
+<td>Não</td>
+<td>RG (PF)</td>
+</tr>
+<tr>
+<td>Órgão Emissor (emitenterg)</td>
+<td>text</td>
+<td>Não</td>
+<td>Órgão emissor do RG</td>
+</tr>
+<tr>
+<td>Inscrição Estadual (inscestadual)</td>
+<td>text</td>
+<td>Não</td>
+<td>IE (PJ)</td>
+</tr>
+<tr>
+<td>Inscrição Municipal (inscmunicipio)</td>
+<td>text</td>
+<td>Não</td>
+<td>IM (PJ)</td>
+</tr>
+<tr>
+<td>Tipo Documento (tipodoc)</td>
+<td>text</td>
+<td>Não</td>
+<td>Tipo de documento</td>
+</tr>
+<tr>
+<td>Caixa Postal (cxpostal)</td>
+<td>text</td>
+<td>Não</td>
+<td>Caixa postal</td>
+</tr>
+<tr>
+<td>Código País (codigopais)</td>
+<td>text</td>
+<td>Não</td>
+<td>Código do país</td>
+</tr>
+<tr>
+<td>Nome País (nomepais)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome do país</td>
+</tr>
+</tbody>
+</table>
+<h3 id="campos-aba-enderecos">Campos - Aba "Endereços"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Endereço (rua)</td>
+<td>text</td>
+<td>Não</td>
+<td>Logradouro</td>
+</tr>
+<tr>
+<td>Número (numcasa)</td>
+<td>text</td>
+<td>Não</td>
+<td>Número</td>
+</tr>
+<tr>
+<td>Complemento (complemento)</td>
+<td>text</td>
+<td>Não</td>
+<td>Complemento</td>
+</tr>
+<tr>
+<td>Bairro (bairro)</td>
+<td>text</td>
+<td>Não</td>
+<td>Bairro</td>
+</tr>
+<tr>
+<td>CEP (cep)</td>
+<td>text</td>
+<td>Não</td>
+<td>CEP (com consulta ViaCEP)</td>
+</tr>
+<tr>
+<td>Cidade (cidade)</td>
+<td>text</td>
+<td>Não</td>
+<td>Cidade</td>
+</tr>
+<tr>
+<td>UF (uf)</td>
+<td>text</td>
+<td>Não</td>
+<td>Estado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="campos-aba-social">Campos - Aba "Social"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Telefone Principal (foneprincipal)</td>
+<td>text</td>
+<td>Não</td>
+<td>Telefone fixo</td>
+</tr>
+<tr>
+<td>E-mail (email)</td>
+<td>email</td>
+<td>Não</td>
+<td>E-mail principal</td>
+</tr>
+<tr>
+<td>E-mail NF-e (emailnfe)</td>
+<td>email</td>
+<td>Não</td>
+<td>E-mail para nota fiscal</td>
+</tr>
+<tr>
+<td>Site (site)</td>
+<td>url</td>
+<td>Não</td>
+<td>Site</td>
+</tr>
+<tr>
+<td>Contato Comercial (contato_comercial)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome do contato comercial</td>
+</tr>
+<tr>
+<td>Celular Comercial (celular_comercial)</td>
+<td>text</td>
+<td>Não</td>
+<td>Celular comercial</td>
+</tr>
+<tr>
+<td>Contato Financeiro (contato_financeiro)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome do contato financeiro</td>
+</tr>
+<tr>
+<td>Celular Financeiro (celular_financeiro)</td>
+<td>text</td>
+<td>Não</td>
+<td>Celular financeiro</td>
+</tr>
+<tr>
+<td>Nome Pai (nomepai)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome do pai (PF)</td>
+</tr>
+<tr>
+<td>Nome Mãe (nomemae)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome da mãe (PF)</td>
+</tr>
+<tr>
+<td>Nome Cônjuge (nomeconjuge)</td>
+<td>text</td>
+<td>Não</td>
+<td>Nome do cônjuge (PF)</td>
+</tr>
+<tr>
+<td>RG Cônjuge (rgconjuge)</td>
+<td>text</td>
+<td>Não</td>
+<td>RG do cônjuge (PF)</td>
+</tr>
+<tr>
+<td>Data Nascimento (datanascto)</td>
+<td>date</td>
+<td>Não</td>
+<td>Data de nascimento (PF)</td>
+</tr>
+<tr>
+<td>Nascimento Cônjuge (nasctoconjuge)</td>
+<td>date</td>
+<td>Não</td>
+<td>Nascimento do cônjuge</td>
+</tr>
+<tr>
+<td>Sexo (sexo)</td>
+<td>select</td>
+<td>Não</td>
+<td>Masculino/Feminino</td>
+</tr>
+<tr>
+<td>Estado Civil (ecivil)</td>
+<td>select</td>
+<td>Não</td>
+<td>Estado civil</td>
+</tr>
+</tbody>
+</table>
+<h3 id="campos-aba-financeiro">Campos - Aba "Financeiro"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Limite Crédito (limicredito)</td>
+<td>number</td>
+<td>Não</td>
+<td>Limite de crédito</td>
+</tr>
+<tr>
+<td>Prazo Máximo (prazomax)</td>
+<td>number</td>
+<td>Não</td>
+<td>Prazo máximo em dias</td>
+</tr>
+<tr>
+<td>Conceito (conceito)</td>
+<td>text</td>
+<td>Não</td>
+<td>Conceito/classificação</td>
+</tr>
+<tr>
+<td>Data 1ª Compra (datapricompra)</td>
+<td>date</td>
+<td>Não</td>
+<td>Data da primeira compra</td>
+</tr>
+<tr>
+<td>Data Última Compra (dataultcompra)</td>
+<td>date</td>
+<td>Não</td>
+<td>Data da última compra</td>
+</tr>
+<tr>
+<td>Nº Compras (numcompra)</td>
+<td>number</td>
+<td>Não</td>
+<td>Número de compras realizadas</td>
+</tr>
+<tr>
+<td>Valor 1ª Compra (valpricompra)</td>
+<td>number</td>
+<td>Não</td>
+<td>Valor da primeira compra</td>
+</tr>
+<tr>
+<td>Maior Compra (valmaicompra)</td>
+<td>number</td>
+<td>Não</td>
+<td>Maior valor já comprado</td>
+</tr>
+<tr>
+<td>Última Compra (valultcompra)</td>
+<td>number</td>
+<td>Não</td>
+<td>Valor da última compra</td>
+</tr>
+<tr>
+<td>Data Cadastro (datacad)</td>
+<td>date</td>
+<td>Não</td>
+<td>Data de cadastro</td>
+</tr>
+<tr>
+<td>Data SPC (dataspc)</td>
+<td>date</td>
+<td>Não</td>
+<td>Data de inclusão no SPC</td>
+</tr>
+<tr>
+<td>Observações (obs)</td>
+<td>textarea</td>
+<td>Não</td>
+<td>Observações</td>
+</tr>
+</tbody>
+</table>
+<h3 id="campos-aba-referencias">Campos - Aba "Referências"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ref. SPC (ref_spc)</td>
+<td>text</td>
+<td>Não</td>
+<td>Referência SPC</td>
+</tr>
+<tr>
+<td>Ref. Financeira (ref_fin)</td>
+<td>text</td>
+<td>Não</td>
+<td>Referência financeira</td>
+</tr>
+<tr>
+<td>Ref. Comercial (ref_com)</td>
+<td>text</td>
+<td>Não</td>
+<td>Referência comercial</td>
+</tr>
+<tr>
+<td>Ref. Produto (ref_prod)</td>
+<td>text</td>
+<td>Não</td>
+<td>Referência de produto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="campos-aba-contatos-complementares">Campos - Aba "Contatos / Complementares"</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Obrigatório</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Código IBGE (codigoibge)</td>
+<td>number</td>
+<td>Não</td>
+<td>Código IBGE da cidade</td>
+</tr>
+<tr>
+<td>Área (id_area)</td>
+<td>lookup</td>
+<td>Não</td>
+<td>Área comercial</td>
+</tr>
+<tr>
+<td>Região (id_regiao)</td>
+<td>lookup</td>
+<td>Não</td>
+<td>Região geográfica</td>
+</tr>
+<tr>
+<td>Vendedor (id_vendedor)</td>
+<td>lookup</td>
+<td>Não</td>
+<td>Vendedor responsável</td>
+</tr>
+<tr>
+<td>Atividade (id_atividade)</td>
+<td>lookup</td>
+<td>Não</td>
+<td>Atividade econômica</td>
+</tr>
+<tr>
+<td>Banco (id_banco)</td>
+<td>lookup</td>
+<td>Não</td>
+<td>Banco</td>
+</tr>
+<tr>
+<td>Contribuinte (contribuinte)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>É contribuinte</td>
+</tr>
+<tr>
+<td>Consumidor Final (consumidor)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Consumidor final</td>
+</tr>
+<tr>
+<td>É Cliente (flagcliente)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Flag de cliente</td>
+</tr>
+<tr>
+<td>É Fornecedor (flagfornecedor)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Flag de fornecedor</td>
+</tr>
+<tr>
+<td>É Transportadora (flagtranspotador)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Flag de transportadora</td>
+</tr>
+<tr>
+<td>É Colaborador (flagcolaborador)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Flag de colaborador</td>
+</tr>
+<tr>
+<td>É Vendedor (flagvendedor)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Flag de vendedor</td>
+</tr>
+<tr>
+<td>Ativo (ativo)</td>
+<td>checkbox</td>
+<td>Não</td>
+<td>Registro ativo</td>
+</tr>
+<tr>
+<td>Endereços (enderecos)</td>
+<td>array</td>
+<td>Não</td>
+<td>Lista de endereços</td>
+</tr>
+</tbody>
+</table>
+<h3 id="regras-de-negocio-botao-salvar">Regras de Negócio - Botão Salvar</h3>
+<ol>
+<li><strong>Validação de Nome e CPF/CNPJ</strong>: Os campos <code>nome</code> e <code>cpfcnpj</code> são obrigatórios. Se faltar algum, exibe "Nome e CPF/CNPJ são obrigatórios." e bloqueia a gravação.</li>
+<li><strong>Validação de Documento</strong>: O sistema valida o formato do CPF ou CNPJ conforme a máscara aplicada automaticamente.</li>
+<li><strong>Integrações</strong>: O CNPJ pode ser consultado via BrasilAPI para preenchimento automático de dados. O CEP é consultado via ViaCEP.</li>
+<li><strong>Requisição</strong>: Os dados de todas as abas são estruturados e enviados via <code>POST</code> (novo) ou <code>PUT</code> (edição) para o endpoint <code>/clientes/</code>.</li>
+<li><strong>Pós-gravação</strong>: A lista de clientes é recarregada e o modal é fechado.</li>
+</ol>
+<h3 id="regras-de-negocio-botao-imprimir">Regras de Negócio - Botão Imprimir</h3>
+<h4 id="imprimir-handleprint">Imprimir (handlePrint)</h4>
+<ol>
+<li>Adiciona classe CSS de impressão ao <code>body</code>.</li>
+<li>Aciona <code>window.print()</code> para gerar a listagem de clientes.</li>
+<li>Remove a classe CSS após 500ms.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
